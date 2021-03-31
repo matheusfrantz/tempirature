@@ -7,11 +7,11 @@ Monitor the core temperature of your Raspberry Pi.
 ```js
 const tempirature = require('tempirature');
 
-tempirature.monitor(function(error, response) {
+tempirature.monitor(function(error, temperature) {
     if (error) {
         console.error(error);
     } else {
-        console.log('It is ' + response + ' °C');
+        console.log('It is ' + temperature + ' °C');
     }
 });
 ```

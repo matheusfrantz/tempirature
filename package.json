@@ -1,0 +1,24 @@
+{
+  "name": "tempirature",
+  "version": "1.0.0",
+  "description": "Monitor the core temperature of your Raspberry Pi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusfrantz/tempirature.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "temperature"
+  ],
+  "author": "Matheus Frantz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusfrantz/tempirature/issues"
+  },
+  "homepage": "https://github.com/matheusfrantz/tempirature#readme"
+}
